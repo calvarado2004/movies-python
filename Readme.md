@@ -15,6 +15,8 @@ A simple Python script that allows users to search for movies using the IMDb8 AP
 ## Requirements
 
 - Python 3.x
+- Docker
+- Docker Compose
 - `requests` module. Install it using:
 
   ```bash
@@ -22,8 +24,10 @@ A simple Python script that allows users to search for movies using the IMDb8 AP
   ```
   
 ## Usage
-    
+
+You have to install Docker and Docker Compose to run the application.
   ```bash
+    docker-compose up -d
     python3 movies.py
   ```
 
