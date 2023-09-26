@@ -40,7 +40,6 @@ class RetrieveMovies(IMDbAPI):
         self.querystring = {"q": querystring}
         self.url = "https://imdb8.p.rapidapi.com/title/find"
 
-
     MAX_RESULTS = 10
     OFFSET = 0
 
