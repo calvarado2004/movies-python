@@ -22,7 +22,13 @@ A simple Python script that allows users to search for movies using the IMDb8 AP
   ```bash
   pip install requests
   ```
+- `psycopg2` module. Install it using:
+
+  ```bash
+  pip install psycopg2-binary
+  ```
   
+
 ## Usage
 
 You have to install Docker and Docker Compose to run the application.
